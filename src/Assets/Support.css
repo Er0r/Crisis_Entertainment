@@ -1,0 +1,11 @@
+form {
+    padding: 50px;
+    margin: 30px;
+}
+
+
+.container{
+    background-image: url('./Annihilation.jpg');
+    background-position: fill;
+    background-size: cover;
+}

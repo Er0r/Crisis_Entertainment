@@ -1,0 +1,20 @@
+body h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+  }
+  
+  .contenedor {
+    height: 100%;
+    margin-top: 20%;
+    /* background-image: url('./1080_ss_5.png');
+    background-repeat: no-repeat;
+    background-position: fill; */
+  }
+  
+  .morebtn{
+    text-align: center
+  }
+  
+  .header_word {
+    color: black;
+  }
