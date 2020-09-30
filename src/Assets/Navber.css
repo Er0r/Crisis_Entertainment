@@ -1,10 +1,16 @@
 .icon-bar {
-    position: fixed;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 480px) {
+  .icon-bar {
+    display:none;
   }
+}
   
   /* Style the icon bar links */
   .icon-bar a {
@@ -59,3 +65,14 @@
       overflow: hidden;
       width: 100%;
   }
+
+@media screen and (max-width: 480px) {
+  .topnav li:not(:nth-child(n+2)){
+    display:none;
+  }
+
+  .topnav li.icon {
+    float: right;
+    display: block;
+  }
+}

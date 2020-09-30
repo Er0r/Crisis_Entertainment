@@ -8,6 +8,7 @@ import support from './Routes/Support';
 import Homepage from './Routes/Homepage';
 import Footer from './Components/Footer';
 import Patch from './Routes/Patch';
+import Annihilation from './Routes/aboutAnnihilation';
 function App() {
   return (
     <BrowserRouter>

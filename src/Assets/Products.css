@@ -10,6 +10,12 @@ body h1{
     background-repeat: no-repeat;
     background-position: fill; */
   }
+
+  @media screen and (max-width: 480px) {
+    .header_word h1{
+      font-size: 2rem;
+    } 
+  }
   
   .morebtn{
     text-align: center

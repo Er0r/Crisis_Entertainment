@@ -1,3 +1,5 @@
+
+
 body{
     padding-top: 0px;
     background-color: black;
@@ -15,7 +17,10 @@ body{
     background-repeat: no-repeat;
     background-size: 1500px 800px;
     border-radius: .2em;
+    
 }
+
+
 
 .sliderimg{
     width: 100%;
@@ -63,6 +68,14 @@ body{
     text-shadow: 20px 10px rgba(0,0,0,0.2);
 }
 
+@media screen and (max-width: 480px) {
+    .sub_banner h1{
+        font-size: 2rem;
+    }
+}
+
+
+
 .sub__banner_img{
     width: 40%;
     height: 100%;
@@ -80,6 +93,15 @@ body{
     float: right;
 }
 
+@media screen and (max-width: 480px) {
+    .sub_banner2{
+        padding-top: 100px;
+    }
+    .sub_banner2 h1 {
+
+        font-size: 2rem;
+    } 
+}
 
 .sub_banner2 h1{
     color: white;

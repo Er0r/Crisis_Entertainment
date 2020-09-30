@@ -12,23 +12,25 @@ return (
                     <a href="https://www.youtube.com/channel/UCfNWSKZoRmjO48CCu7Xx6Yw" className="youtube"><i className="fa fa-youtube"></i></a>
                     <a href="https://discord.gg/mgsAK2N" className="discord"><i className='fab fa-discord' style={{font_size:"48px"}}></i></a>
                 </div>
-
-                <nav className="navbar navbar-inverse">
-                    <div className="container-fluid">
-                        <div className="navbar-header">
-                            <a className="navbar-brand" href="/">CRISIS ENTERTAINMENT</a>
+                <div className="topnav">
+                    <nav className="navbar navbar-inverse" id="myTopnav">
+                        <div className="container-fluid">
+                            <div className="navbar-header">
+                                <a className="navbar-brand" href="/">CRISIS ENTERTAINMENT</a>
+                            </div>
+                            <ul className="nav navbar-nav">
+                                <li><NavLink exact to="/">HOME</NavLink></li>
+                                <li><NavLink to="/support">SUPPORT</NavLink></li>
+                                <li><NavLink to="/about">ABOUT</NavLink></li>
+                            </ul>
+                            <ul className="nav navbar-nav navbar-right">
+                                <li><NavLink to="/patch">PATCH NOTES</NavLink></li>
+                            </ul>
                         </div>
-                        <ul className="nav navbar-nav">
-                            <li><NavLink exact to="/">HOME</NavLink></li>
-                            <li><NavLink to="/support">SUPPORT</NavLink></li>
-                            <li><NavLink to="/about">ABOUT</NavLink></li>
-                        </ul>
-                        <ul className="nav navbar-nav navbar-right">
-                            <li><NavLink to="/patch">PATCH NOTES</NavLink></li>
-                        </ul>
-                    </div>
+                    
+                    </nav>           
+                </div>
                 
-                </nav>
                     
             </div> 
     );
